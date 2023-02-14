@@ -22,7 +22,7 @@ class RbcAssignmentApplicationTests {
 	}
 	
 	@Test
-	public void givenEmployees_whenGetEmployees_thenStatus200()
+	public void testValidFileUpload()
 	  throws Exception {
 		
 		MockMultipartFile file = new MockMultipartFile("file", "dow_jones_index.pdf", "", "test".getBytes());
