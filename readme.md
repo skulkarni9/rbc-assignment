@@ -5,6 +5,8 @@ The assignment used in-memory H2 database
 1. curl --location --request POST 'localhost:8080/assignment/stockdata/task/upload' \
 --form 'file=@"/C:/Users/4603086/Downloads/dow_jones_index/dow_jones_index.data"'
 
+<b> Sample input file can be found @ https://github.com/skulkarni9/rbc-assignment/tree/main/src/test/resources </b>
+
 2. curl --location --request GET 'localhost:8080/assignment/stockdata/AA'
 
 3. curl --location --request POST 'localhost:8080/assignment/stockdata' \
